@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" title="Coding design">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MOOC-daotao.ai</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  </head>
+
+  <body>
+    <div id="control_attendance_table">
+      <div class="attendances_student">
+        <main class="attendances_student_table">
+          <section class="attendances_student_table__header">
+            <div class="attendances_student_table__header_handle">
+              <h1>Attendance</h1>
+              
+            </div>
+            <div class="input-group">
+              <input id="search_input" type="text" placeholder="Search for class" />
+              <button id="search-btn" onclick="renderTable()">Search</button>
+            </div>
+          </section>
+          <section class="attendances_student_table__body">
+            <table>
+              <thead>
+                <tr>
+                  
+                  <th>STT</th>
+                  <th id="_1">
+                    ID
+                  </th>
+                  <th id="_2">
+                    Status
+                  </th>
+                  <th id="_3">
+                    Time Joined
+                  </th>
+                  <th id="_4">
+                    Image
+                  </th>
+                  <th id="_5">
+                    Suspecion
+                  </th>
+                </tr>
+              </thead>
+              <tbody id="attendances_student_table__body_tableData"></tbody>
+            </table>
+          </section>
+          <div class="attendances_student_pagination">
+            <div class="pagination"></div>
+          </div>
+        </main>
+      </div>
+      <div class="container_gallery">
+    </div>
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: teacher_xblock-xblock
+Version: 0.1
+Summary: teacher_xblock XBlock
+License: UNKNOWN
+Requires-Dist: XBlock

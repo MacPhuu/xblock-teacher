@@ -1,0 +1,2 @@
+[xblock.v1]
+teacher_xblock = teacher_xblock:TeacherXBlock

@@ -1,0 +1,13 @@
+setup.py
+teacher_xblock/__init__.py
+teacher_xblock/teacher_xblock.py
+teacher_xblock/static/README.txt
+teacher_xblock/static/css/teacher_xblock.css
+teacher_xblock/static/html/teacher_xblock.html
+teacher_xblock/static/js/src/teacher_xblock.js
+teacher_xblock_xblock.egg-info/PKG-INFO
+teacher_xblock_xblock.egg-info/SOURCES.txt
+teacher_xblock_xblock.egg-info/dependency_links.txt
+teacher_xblock_xblock.egg-info/entry_points.txt
+teacher_xblock_xblock.egg-info/requires.txt
+teacher_xblock_xblock.egg-info/top_level.txt
